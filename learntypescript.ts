@@ -53,7 +53,7 @@ var p: Person = { name: "Bobby", move: () => {} };
 // Objects that have the optional property:
 var validPerson: Person = { name: "Bobby", age: 42, move: () => {} };
 // Is not a person because age is not a number
-var invalidPerson: Person = { name: "Bobby", age: true };
+// var invalidPerson: Person = { name: "Bobby", age: true };
 
 // Interfaces can also describe a function type
 interface SearchFunc {
@@ -151,4 +151,3 @@ var greeting = `Hi ${name}, how are you?`
 // Multiline Strings with Template Strings
 var multiline = `This is an example
 of a multiline string`;
-
